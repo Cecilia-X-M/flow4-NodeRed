@@ -22,7 +22,7 @@ En los siguientes enlaces puedes encontrar cursos en la plataforma de edu.codigo
 - [Instalación de Virutal Box y Ubuntu 20.04](https://edu.codigoiot.com/course/view.php?id=812)
 - [Instalación de NodeRed](https://edu.codigoiot.com/course/view.php?id=817)
 - [Introducción a NodeRed](https://edu.codigoiot.com/course/view.php?id=278)
-- [Introducción a MQTT] (https://edu.codigoiot.com/enrol/index.php?id=851)
+- [Introducción a MQTT](https://edu.codigoiot.com/enrol/index.php?id=851)
 
 ## Instrucciones
 
@@ -48,7 +48,7 @@ Para ejecutar este flow es necesario lo siguiente:
 
 ### Instrucciones de operación
 
-Para observar el resultado de este flow, sólo es necesario abrir el navegador y escribir la siguiente dirección http://localhost:1880/ui y dentro de la página hay un menu derecho y hacer clic en flow4, debemos abrir la terminal para poder mandar una instrucción y el resultado se muestra en el navegador. 
+Para observar el resultado de este flow, sólo es necesario abrir el navegador y escribir la siguiente dirección http://localhost:1880/ui y dentro de la página hay un menú derecho y hacer clic en flow4, debemos abrir la terminal para poder mandar una instrucción y el resultado se muestra en el navegador. 
 mosquitto_pub -h localhost -t codigoIoT/Mor/mqtt/flow4 -m '{"id":"Cecilia Xolio","temp":16,"hum":51}' 
 
 ## Resultados
